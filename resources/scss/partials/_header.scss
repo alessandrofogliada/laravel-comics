@@ -1,0 +1,31 @@
+header{
+    // width: 1000px;
+    height: 120px;
+    background-color: white;
+}
+
+header img{
+    width: 100px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    // margin: 0 300px;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+}
+
+a{
+    color: black;
+    margin: 0 5px;
+}
+
+li :hover{
+    color: blue;
+    border-bottom: 2px solid blue;
+}
